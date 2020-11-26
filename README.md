@@ -17,6 +17,10 @@ If you just wanted an inset for London, you could try something like this:
 
 And in both cases you just do a similar filter on the box layer to show a box round these areas.
 
+I used data from the ONS geography portal to create this. It's all open, licenced under the Open Government Licence v3.0. 
+
+Source: Office for National Statistics licensed under the Open Government Licence v.3.0. Contains OS data © Crown copyright and database right [2020].
+
 Alasdair Rae
 26 Nov 2020
 
