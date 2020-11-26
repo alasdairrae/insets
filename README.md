@@ -35,7 +35,7 @@ Source: Office for National Statistics licensed under the Open Government Licenc
 
 ![Example map](insets_example.png)
 
-![Video showing how it all works in QGIS](insets_example.png)
+![Video showing how it all works in QGIS](uk_with_inset_and_style.mp4)
 
 
 
