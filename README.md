@@ -3,7 +3,7 @@ This is a very beta version of a UK local authority layer that includes larger i
 
 Feel free to use as you see fit.
 
-**There are three zipped folders. One is just the boxes that the insets fit within. The other two are the UK local authority files - one version has just the basic fields (area names, codes, country, etc) but I also added another one with population data, using the latest ONS mid-year estimates (2019). The 'scale' field tells you how much bigger I made the inset areas - everywhere is 3x bigger, apart from London (5x) and Orkney and Shetland (same size, just moved south).**
+**There are three zipped folders. One is just the boxes that the insets fit within. The other two are the UK local authority files - one version has just the basic fields (area names, codes, country, etc) but I also added another one with population data, using the latest ONS mid-year estimates (2019). The 'scale' field tells you how much bigger I made the inset areas - everywhere is 3x bigger, apart from London (5x) and Orkney and Shetland (same size, just moved south). I have also added QGIS style files for the inset boxes and one for the layer with the population data (this style shows the % aged 80+ in each area).**
 
 I have also included bounding boxes with a 10km buffer so that you can add these in to make clear which areas are insets and which are not.
 
@@ -34,6 +34,8 @@ Source: Office for National Statistics licensed under the Open Government Licenc
 
 
 ![Example map](insets_example.png)
+
+![Video showing how it all works in QGIS](insets_example.png)
 
 
 
