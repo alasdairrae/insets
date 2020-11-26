@@ -35,6 +35,6 @@ Source: Office for National Statistics licensed under the Open Government Licenc
 
 ![Example map](insets_example.png)
 
-[Video showing how it all works in QGIS](https://twitter.com/undertheraedar/status/1332034822697611270?s=20)
+[Video showing how it all works in QGIS](https://twitter.com/undertheraedar/status/1332034822697611270)
 
 
