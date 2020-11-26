@@ -3,6 +3,8 @@ This is a very beta version of a UK local authority layer that includes larger i
 
 Feel free to use as you see fit.
 
+**There are three zipped folders. One is just the boxes that the insets fit within. The other two are the UK local authority files - one version has just the basic fields (area names, codes, country, etc) but I also added another one with population data, using the latest ONS mid-year estimates (2019).**
+
 I have also included bounding boxes with a 10km buffer so that you can add these in to make clear which areas are insets and which are not.
 
 The idea behind this is to make maps that are easier to see and understand, but also more quickly, and from one layer. 
