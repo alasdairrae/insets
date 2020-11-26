@@ -11,4 +11,15 @@ There are lots of possibiliites, but if you wanted to just put Orkney and Shetla
 
 "inset_area" = 'None' and NOT "lad20nm" IN ('Orkney Islands','Shetland Islands') OR "inset_area" = 'Orkney and Shetland'
 
+If you just wanted an inset for London, you could try something like this:
+
+"inset_area"  IN ('Greater London','None')
+
+And in both cases you just do a similar filter on the box layer to show a box round these areas.
+
+Alasdair Rae
+26 Nov 2020
+
+(work in progress)
+
 
