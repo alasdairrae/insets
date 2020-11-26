@@ -4,3 +4,11 @@ This is a very beta version of a UK local authority layer that includes larger i
 Feel free to use as you see fit.
 
 I have also included bounding boxes with a 10km buffer so that you can add these in to make clear which areas are insets and which are not.
+
+The idea behind this is to make maps that are easier to see and understand, but also more quickly, and from one layer. 
+
+There are lots of possibiliites, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like this:
+
+"inset_area" = 'None' and NOT "lad20nm" IN ('Orkney Islands','Shetland Islands') OR "inset_area" = 'Orkney and Shetland'
+
+
