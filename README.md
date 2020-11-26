@@ -32,4 +32,7 @@ Alasdair Rae
 
 (work in progress)
 
+![Example map](insets_example.png)
+
+
 
