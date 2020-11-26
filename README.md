@@ -27,10 +27,11 @@ I used data from the ONS geography portal to create this. It's all open, licence
 
 Source: Office for National Statistics licensed under the Open Government Licence v.3.0. Contains OS data © Crown copyright and database right [2020].
 
-Alasdair Rae
+**Alasdair Rae**
 26 Nov 2020
 
 (work in progress)
+
 
 ![Example map](insets_example.png)
 
