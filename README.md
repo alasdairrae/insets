@@ -9,7 +9,7 @@ I have also included bounding boxes with a 10km buffer so that you can add these
 
 The idea behind this is to make maps that are easier to see and understand, but also more quickly, and from one layer. 
 
-There are lots of possibiliites, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like this:
+There are lots of possibilities, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like this:
 
 * *"inset_area" = 'None' and NOT "lad20nm" IN ('Orkney Islands','Shetland Islands') OR "inset_area" = 'Orkney and Shetland'*
 
