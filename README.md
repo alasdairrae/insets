@@ -1,10 +1,12 @@
 # A UK local authority Shapefile with area insets 
-## (2020 and 2021 local authority boundaries)
+## 2020 and 2021 local authority boundaries
 This repository contains a UK local authority layer that includes larger insets for 7 parts of the UK. I haven't included everywhere (sorry), just some of the main urban areas with small areas that are difficult to see on a zoomed out map. I have also (as of January 2022) added in a new file that takes into account the 2021 local government boundary changes in Northamptonshire. If you join some spreadsheet data to the Shapefile then the data will also be joined to the areas in the insets as well, with no fuss.
 
 Feel free to use as you see fit. There's also a video showing how to use the files - scroll down to the bottom of the page to see this.
 
-**There are FOUR zipped folders.** One is just the boxes that the insets fit within. The other three are the UK local authority files - one version has just the basic fields (area names, codes, country, etc) but I also added another one with population data, using the latest ONS mid-year estimates (2019). The 'scale' field tells you how much bigger I made the inset areas - everywhere is 3x bigger, apart from London (5x) and Orkney and Shetland (same size, just moved south). I have also added QGIS style files for the inset boxes and one for the layer with the population data (this style shows the % aged 80+ in each area). As of January 2022 there is also another local authority file that uses the 2021 boundaries.**
+**There are FOUR zipped folders.** One is just the boxes that the insets fit within. The other three are the UK local authority files - one version has just the basic fields (area names, codes, country, etc) but I also added another one with population data, using the latest ONS mid-year estimates (2019). 
+
+The 'scale' field tells you how much bigger I made the inset areas - most are 3x bigger, apart from London (5x) and Orkney and Shetland (same size, just moved south). I have also added QGIS style files for the inset boxes and one for the layer with the population data (this style shows the % aged 80+ in each area). As of January 2022 there is also another local authority file that uses the 2021 boundaries, and includes the 2020 population estimates for each area.**
 
 I have also included bounding boxes with a 10km buffer so that you can add these in to make clear which areas are insets and which are not.
 
