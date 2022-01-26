@@ -12,7 +12,7 @@ I have also included bounding boxes with a 10km buffer so that you can add these
 
 The idea behind this is to make maps that are easier to see and understand, but also more quickly, and from one layer. 
 
-There are lots of possibilities, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like the examples below. *Just note that in different versions of the file the columns have different names - e.g. in the 2020 version, the ONS local authority name column is called "lad20nm" but in the 2022 version of the file it's called "ons_name" - so just update any of the filter text below to reflect this, if you need to.
+There are lots of possibilities, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like the examples below. 
 
 `"inset_area" = 'None' and NOT "lad20nm" IN ('Orkney Islands','Shetland Islands') OR "inset_area" = 'Orkney and Shetland'`
 
@@ -25,6 +25,8 @@ If you wanted to show all insets, but not Shetland and Orkney in their actual lo
 `NOT "areaname" IN( 'Orkney Islands','Shetland Islands') OR "inset" = 'Yes'`
 
 And in all cases you just do a similar filter on the box layer to show a box round these areas.
+
+*Just note that in different versions of the file the columns have different names - e.g. in the 2020 version, the ONS local authority name column is called "lad20nm" but in the 2022 version of the file it's called "ons_name" - so just update any of the filter text below to reflect this, if you need to.
 
 I used data from the ONS geography portal to create this. It's all open, licenced under the Open Government Licence v3.0. 
 
