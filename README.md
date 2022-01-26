@@ -9,7 +9,7 @@ I have also included bounding boxes with a 10km buffer so that you can add these
 
 The idea behind this is to make maps that are easier to see and understand, but also more quickly, and from one layer. 
 
-There are lots of possibilities, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like this:
+There are lots of possibilities, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like the examples below. Just note that in different versions of the file the columns have different names - e.g. in the 2020 version, the ONS local authority name column is called "lad20nm" but in the 2022 version of the file it's called "ons_name" - so just update any of the filter text below to reflect this, if you need to.
 
 * *"inset_area" = 'None' and NOT "lad20nm" IN ('Orkney Islands','Shetland Islands') OR "inset_area" = 'Orkney and Shetland'*
 
@@ -34,7 +34,7 @@ Updated 25 Jan 2022 to include new file with 2021 boundary changes taken into ac
 (work in progress)
 
 
-![Example map](insets_example.png)
+![Example map](insets_example_2.png)
 
 [Video showing how it all works in QGIS](https://twitter.com/undertheraedar/status/1332034822697611270)
 
