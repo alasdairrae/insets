@@ -6,13 +6,13 @@ Feel free to use as you see fit. There's also a video showing how to use the fil
 
 **There are FOUR zipped folders.** One is just the boxes that the insets fit within. The other three are the UK local authority files - one version has just the basic fields (area names, codes, country, etc) but I also added another one with population data, using the latest ONS mid-year estimates (2019). 
 
-The 'scale' field tells you how much bigger I made the inset areas - most are 3x bigger, apart from London (5x) and Orkney and Shetland (same size, just moved south). I have also added QGIS style files for the inset boxes and one for the layer with the population data (this style shows the % aged 80+ in each area). As of January 2022 there is also another local authority file that uses the 2021 boundaries, and includes the 2020 population estimates for each area.**
+The 'scale' field tells you how much bigger I made the inset areas - most are 3x bigger, apart from London (5x) and Orkney and Shetland (same size, just moved south). I have also added QGIS style files for the inset boxes and one for the layer with the population data (this style shows the % aged 80+ in each area). As of January 2022 there is also another local authority file that uses the 2021 boundaries, and includes the 2020 population estimates for each area.
 
 I have also included bounding boxes with a 10km buffer so that you can add these in to make clear which areas are insets and which are not.
 
 The idea behind this is to make maps that are easier to see and understand, but also more quickly, and from one layer. 
 
-There are lots of possibilities, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like the examples below. Just note that in different versions of the file the columns have different names - e.g. in the 2020 version, the ONS local authority name column is called "lad20nm" but in the 2022 version of the file it's called "ons_name" - so just update any of the filter text below to reflect this, if you need to.
+There are lots of possibilities, but if you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, something like the examples below. *Just note that in different versions of the file the columns have different names - e.g. in the 2020 version, the ONS local authority name column is called "lad20nm" but in the 2022 version of the file it's called "ons_name" - so just update any of the filter text below to reflect this, if you need to.
 
 * *"inset_area" = 'None' and NOT "lad20nm" IN ('Orkney Islands','Shetland Islands') OR "inset_area" = 'Orkney and Shetland'*
 
