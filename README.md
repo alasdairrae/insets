@@ -1,6 +1,6 @@
 # A UK local authority Shapefile with area insets 
 ## 2020 and 2021 local authority boundaries
-This repository contains a UK local authority layer that includes larger insets for 7 parts of the UK. I haven't included everywhere (sorry), just some of the main urban areas with small areas that are difficult to see on a zoomed out map. I have also (as of January 2022) added in a new file that takes into account the 2021 local government boundary changes in Northamptonshire. If you join some spreadsheet data to the Shapefile then the data will also be joined to the areas in the insets as well, with no fuss.
+This repository contains a UK local authority layer that includes larger insets for 7 parts of the UK. I haven't included everywhere (sorry), just some of the main urban areas with small areas that are difficult to see on a zoomed out map. I have also (as of January 2022) added in a new file that takes into account the 2021 local government boundary changes in Northamptonshire. These are the current UK local authority boundaries as of June 2022. If you join some spreadsheet data to the Shapefile then the data will also be joined to the areas in the insets as well, with no fuss.
 
 Feel free to use as you see fit. There's also a video showing how to use the files - scroll down to the bottom of the page to see this.
 
@@ -12,7 +12,7 @@ I have also included bounding boxes with a 10km buffer so that you can add these
 
 The idea behind this is to make maps that are easier to see and understand, but also more quickly, and from one layer. 
 
-There are lots of possibilities, but if for example you wanted to just put Orkney and Shetland into a little inset, you could run a flter on the layer, like this one below. 
+There are lots of possibilities, but if for example you wanted to just put Orkney and Shetland into a little inset, you could run a filter on the layer, like this one below. 
 
 `"inset_area" = 'None' and NOT "lad20nm" IN ('Orkney Islands','Shetland Islands') OR "inset_area" = 'Orkney and Shetland'`
 
